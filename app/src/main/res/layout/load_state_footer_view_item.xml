@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/error_layout_size"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/error_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="@dimen/error_text_size"
+        tools:text="Timeout" />
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@android:style/Widget.ProgressBar.Small"
+        android:layout_width="match_parent"
+        android:padding="@dimen/margin_8"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/retry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_margin="@dimen/margin_8"
+        android:textSize="@dimen/retry_text_size"
+        android:layout_gravity="center"
+        android:background="@color/error_red"
+        android:textColor="@color/white"
+        android:text="@string/retry"/>
+</LinearLayout>

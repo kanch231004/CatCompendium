@@ -1,0 +1,131 @@
+[
+  {
+    "name": "Abyssinian",
+    "description": "The Abyssinian is easy to care for, and a joy to have in your home. They’re affectionate cats and love both people and other animals.",
+    "image_url": "https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg",
+    "country_code": "EG",
+    "health_issues": 2,
+    "intelligence": 5,
+    "energy_level": 5
+  },
+  {
+    "name": "Aegean",
+    "description": "Native to the Greek islands known as the Cyclades in the Aegean Sea, these are natural cats, meaning they developed without humans getting involved in their breeding. As a breed, Aegean Cats are rare, although they are numerous on their home islands. They are generally friendly toward people and can be excellent cats for families with children.",
+    "image_url": "https://cdn2.thecatapi.com/images/ozEvzdVM-.jpg",
+    "adaptability": 5,
+    "social_needs": 4,
+    "vocalisation": 3
+  },
+  {
+    "name": "American Bobtail",
+    "description": "The American Bobtail is a medium to large, naturally occurring, bobtailed cat. It is a noticeably athletic animal, well muscled, with the look of power.",
+    "image_url": "https://cdn2.thecatapi.com/images/MTYwODI2Nw.jpg",
+    "health_issues": 1,
+    "intelligence": 3,
+    "affection_level": 4
+  },
+  {
+    "name": "American Curl",
+    "description": "The American Curl is a breed of cat characterized by its unusual ears, which curl back from the face toward the center of the back of the skull.",
+    "image_url": "https://cdn2.thecatapi.com/images/Mt1rHGtu2.jpg",
+    "shedding_level": 2,
+    "intelligence": 5,
+    "energy_level": 3
+  },
+  {
+    "name": "American Shorthair",
+    "description": "The American Shorthair is known for its longevity, robust health, good looks, sweet personality, and amiability with children, dogs, and other pets.",
+    "image_url": "https://cdn2.thecatapi.com/images/vls.jpg",
+    "adaptability": 5,
+    "social_needs": 4,
+    "vocalisation": 1
+  },
+  {
+    "name": "American Wirehair",
+    "description": "American Wirehairs are known for their unique wiry coats, springy and resilient, with a coarse texture that distinguishes them from other breeds.",
+    "image_url": "https://cdn2.thecatapi.com/images/AAItTWj1T.jpg",
+    "health_issues": 2,
+    "intelligence": 3,
+    "affection_level": 5
+  },
+  {
+    "name": "Arabian Mau",
+    "description": "Arabian Maus are known for their loyalty and affection towards their owners. They are highly intelligent cats and love to play and interact with their human family members.",
+    "image_url": "https://cdn2.thecatapi.com/images/bzh.jpg",
+    "adaptability": 5,
+    "social_needs": 5,
+    "vocalisation": 1
+  },
+  {
+    "name": "Australian Mist",
+    "description": "Australian Mists are known for their friendly and affectionate nature. They enjoy being around people and are good with children and other pets.",
+    "image_url": "https://cdn2.thecatapi.com/images/MdkZZvwPR.jpg",
+    "adaptability": 5,
+    "social_needs": 4,
+    "vocalisation": 3
+  },
+  {
+    "name": "Balinese",
+    "description": "Balinese cats are known for their playful and affectionate nature. They are often described as social and intelligent cats, enjoying the company of their human family members.",
+    "image_url": "https://cdn2.thecatapi.com/images/OMAq3ozzy.jpg",
+    "health_issues": 1,
+    "intelligence": 5,
+    "affection_level": 5
+  },
+  {
+    "name": "Bambino",
+    "description": "Bambinos are known for their friendly and affectionate nature. They are often described as playful and social cats, enjoying the company of their human family members.",
+    "image_url": "https://cdn2.thecatapi.com/images/H2TGUMIcl.jpg",
+    "adaptability": 5,
+    "social_needs": 5,
+    "vocalisation": 3
+  },
+  {
+    "name": "Bengal",
+    "description": "Bengal cats are known for their beautiful and distinctive markings. They are often described as energetic and playful cats, enjoying interactive play and mental stimulation.",
+    "image_url": "https://cdn2.thecatapi.com/images/MTg5NzY3NQ.jpg",
+    "adaptability": 5,
+    "social_needs": 4,
+    "vocalisation": 5
+  },
+  {
+    "name": "Birman",
+    "description": "Birman cats are known for their striking blue eyes and beautiful, silky fur. They are often described as gentle and affectionate cats, enjoying the company of their human family members.",
+    "image_url": "https://cdn2.thecatapi.com/images/NQF4MgSx3.jpg",
+    "health_issues": 1,
+    "intelligence": 4,
+    "affection_level": 5
+  },
+  {
+    "name": "Bombay",
+    "description": "Bombay cats are known for their sleek black coats and striking golden eyes. They are often described as affectionate and playful cats, enjoying interactive play and cuddling with their human family members.",
+    "image_url": "https://cdn2.thecatapi.com/images/a9d.jpg",
+    "adaptability": 5,
+    "social_needs": 4,
+    "vocalisation": 5
+  },
+  {
+    "name": "Brazilian Shorthair",
+    "description": "Brazilian Shorthairs are known for their friendly and affectionate nature. They are often described as playful and social cats, enjoying the company of their human family members.",
+    "image_url": "https://cdn2.thecatapi.com/images/0xbrN4Y2T.jpg",
+    "adaptability": 5,
+    "social_needs": 4,
+    "vocalisation": 3
+  },
+  {
+    "name": "British Longhair",
+    "description": "British Longhairs are known for their luxurious, dense coats and large, expressive eyes. They are often described as calm and gentle cats, enjoying lounging and relaxing with their human family members.",
+    "image_url": "https://cdn2.thecatapi.com/images/WQti_4g9f.jpg",
+    "health_issues": 1,
+    "intelligence": 3,
+    "affection_level": 4
+  },
+  {
+    "name": "British Shorthair",
+    "description": "British Shorthairs are known for their robust build, dense coats, and large, round eyes. They are often described as calm and easygoing cats, enjoying the company of their human family members.",
+    "image_url": "https://cdn2.thecatapi.com/images/a8o.jpg",
+    "adaptability": 5,
+    "social_needs": 4,
+    "vocalisation": 1
+  }
+]

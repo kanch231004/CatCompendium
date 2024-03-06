@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CatCompendium</string>
+    <string name="breed_thumbnail">breed_thumbnail\n</string>
+    <string name="retry">Retry</string>
+</resources>

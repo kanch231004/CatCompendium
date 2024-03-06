@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_8"
+        android:layout_marginBottom="@dimen/margin_8">
+
+        <ImageView
+            android:id="@+id/ivBreedThumbnail"
+            android:layout_width="@dimen/cat_breed_thumbnail_size"
+            android:layout_height="@dimen/cat_breed_thumbnail_size"
+            android:layout_margin="@dimen/margin_12"
+            android:layout_marginTop="@dimen/margin_8"
+            android:layout_marginEnd="@dimen/margin_12"
+            android:contentDescription="@string/breed_thumbnail"
+            android:foregroundGravity="center_vertical"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvBreedName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="@dimen/margin_12"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/ivBreedThumbnail"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Abyssinian" />
+
+        <TextView
+            android:id="@+id/tvBreedDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:maxLines="2"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:ellipsize="end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ivBreedThumbnail"
+            app:layout_constraintTop_toBottomOf="@id/tvBreedName"
+            tools:text="This is a sample cat breed description. " />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

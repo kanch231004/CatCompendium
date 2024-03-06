@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cat_breed_thumbnail_size">64dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="error_text_size">16sp</dimen>
+    <dimen name="retry_text_size">12sp</dimen>
+    <dimen name="retry_btn_size">20sp</dimen>
+    <dimen name="error_layout_size">80dp</dimen>
+
+</resources>
