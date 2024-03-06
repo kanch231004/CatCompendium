@@ -16,8 +16,8 @@ class CatBreedDataSource @Inject constructor(
 
     override fun getRefreshKey(state: PagingState<Int, CatBreedItem>): Int? {
         return state.anchorPosition?.let { anchorPosition ->
-                 state.closestPageToPosition(anchorPosition)?.nextKey?.plus(INCREMENT_COUNT) ?:
-                    state.closestPageToPosition(anchorPosition)?.prevKey?.minus(INCREMENT_COUNT)
+                 state.closestPageToPosition(anchorPosition)?.nextKey?.minus(INCREMENT_COUNT) ?:
+                    state.closestPageToPosition(anchorPosition)?.prevKey?.plus(INCREMENT_COUNT)
         }
     }
 

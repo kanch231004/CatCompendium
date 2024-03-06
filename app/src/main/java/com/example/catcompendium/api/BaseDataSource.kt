@@ -17,12 +17,11 @@ interface BaseDataSource {
             }
             return error(" ${response.errorBody()?.deserialize<ErrorBody>()?.message}")
         } catch (e: Exception) {
-
             return when(e) {
                 /** Check using connectivity manager if this exception is because of the network status */
-                is UnknownHostException -> error("No internet connection")
+                is UnknownHostException -> error("Unable to reach server")
                 is SocketTimeoutException -> error("Please check your connectivity")
-                else -> error(call().errorBody()?.string() ?: e.message ?: "Something went wrong!")
+                else -> error(call().errorBody()?.string() ?: e.localizedMessage ?: "Something went wrong!")
             }
         }
     }

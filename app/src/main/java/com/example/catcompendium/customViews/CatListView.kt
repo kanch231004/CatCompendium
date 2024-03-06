@@ -61,7 +61,9 @@ class CatListView @JvmOverloads constructor(
 
     private fun refreshAdapter() {
         adapter.refresh()
+        binding.progressBar.visibility = View.GONE
         binding.swipeRefresh.isRefreshing = false
+
     }
 
     private fun showError(errorState: LoadState.Error?) {
