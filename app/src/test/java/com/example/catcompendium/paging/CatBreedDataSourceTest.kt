@@ -52,7 +52,6 @@ class CatBreedDataSourceTest : BaseDataSource {
                 placeholdersEnabled = false
             )
         )
-        advanceUntilIdle()
         Truth.assertThat(actual).isEqualTo(
             PagingSource.LoadResult.Page(
                 data = listBreed.subList(0, LIMIT),
@@ -72,7 +71,6 @@ class CatBreedDataSourceTest : BaseDataSource {
                 placeholdersEnabled = false
             )
         )
-        advanceUntilIdle()
         assert(actual is PagingSource.LoadResult.Error)
     }
 

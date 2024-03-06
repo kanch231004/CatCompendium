@@ -42,7 +42,7 @@ class CatBreedRepositoryImplTest {
 
     @OptIn(ExperimentalCoroutinesApi::class)
     @Test
-    fun `test getCatBreedList returns expected flow`() = runTest {
+    fun `test getCatBreedList returns expected non null flow`() = runTest {
         var resultList: Flow<PagingData<CatBreedItem>>? = null
 
         val job = launch {

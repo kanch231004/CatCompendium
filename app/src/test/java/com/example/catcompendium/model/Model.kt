@@ -58,6 +58,14 @@ val listBreed by lazy {
         CatBreedItem(
             name = "Bengal",
             description = "Bengal cats are known for their beautiful and distinctive markings. They are often described as energetic and playful cats, enjoying interactive play and mental stimulation.",
+        ),
+        CatBreedItem(
+            name = "XYZ",
+            description = "Bambinos are known for their friendly and affectionate nature. They are often described as playful and social cats, enjoying the company of their human family members.",
+        ),
+        CatBreedItem(
+            name = "ABC",
+            description = "Bengal cats are known for their beautiful and distinctive markings. They are often described as energetic and playful cats, enjoying interactive play and mental stimulation.",
         )
     )
 }

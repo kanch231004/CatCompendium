@@ -23,7 +23,6 @@ import org.junit.After
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import org.mockito.Mockito
 
 @OptIn(ExperimentalCoroutinesApi::class)
 class CatBreedViewModelTest {
@@ -31,7 +30,6 @@ class CatBreedViewModelTest {
     val instantTaskExecutorRule = InstantTaskExecutorRule()
     private lateinit var viewModel: CatBreedViewModel
     private val testDispatcher = StandardTestDispatcher()
-    private val mockRepository = Mockito.mock(CatBreedRepository::class.java)
 
     @Before
     fun setup() {
@@ -39,7 +37,7 @@ class CatBreedViewModelTest {
     }
 
     @Test
-    fun testItem() = runTest {
+    fun  `test view model contains correct sublist when paginated API call is done with load size = 10 `() = runTest {
         val differ = AsyncPagingDataDiffer(
             diffCallback = CatListDiffCallback,
             mainDispatcher = testDispatcher,
@@ -48,14 +46,13 @@ class CatBreedViewModelTest {
         )
         val repo = FakeCatRepository()
         viewModel = CatBreedViewModel(repo)
-        Mockito.`when`((mockRepository).getCatBreedList()).thenReturn(flowOf(PagingData.from(listBreed.subList(0, 11))))
         val job = launch {
             viewModel.breedList.collectLatest { pagingData ->
                 differ.submitData(pagingData)
             }
         }
         advanceUntilIdle()
-        assertThat(differ.snapshot()).isEqualTo(listBreed)
+        assertThat(differ.snapshot()).isEqualTo(listBreed.subList(0,11))
         job.cancel()
     }
 
