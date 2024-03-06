@@ -3,9 +3,9 @@ This project is an Android app that demonstrates the smooth and optimized networ
 
 Confluence document -> https://kanchanpal.atlassian.net/wiki/spaces/SD/pages/33876/CatCompendium
 
-# ScreenShots/ Architecture Diagram
+# Architecture Diagram / Screenshots
 
-<img src = "https://github.com/kanch231004/CatCompendium/assets/32065373/bc5b7815-6642-464f-9abb-39581b8aedfb" width = 260 height = 550/>      <img src = "https://github.com/kanch231004/CatCompendium/assets/32065373/0c76c65c-612d-4473-afe1-9ec8f44311c2" width = 700 height = 550/>
+<img src = "https://github.com/kanch231004/CatCompendium/assets/32065373/0c76c65c-612d-4473-afe1-9ec8f44311c2" width = 680 height = 550/><img src = "https://github.com/kanch231004/CatCompendium/assets/32065373/bc5b7815-6642-464f-9abb-39581b8aedfb" width = 260 height = 550/> 
 
 # Tech-Stack
 
